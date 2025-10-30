@@ -10,7 +10,7 @@ def generateArduinoCode(jsonFilePath):
     
     #Arduino code, initialized as a string, and add onto the string to print out something that is Arduino code
     arduinoCode = """const int outputPin = 13;
-const int startButton = 8;
+const int startButton = 2;
 
 void setup() {
     pinMode(outputPin, OUTPUT);
